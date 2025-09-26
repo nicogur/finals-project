@@ -1,0 +1,35 @@
+
+/* NAVIGATION */
+.navigation {
+    display: flex;
+    justify-content: center;  /* center links horizontally */
+    gap: 50px;               /* space between links */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    background-color: transparent;
+    transition: background-color 0.3s, opacity 0.3s;
+    z-index: 1000;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #FFCC00;  /* hover effect */
+}
+
+/* SCROLLED NAVIGATION */
+.navigation-scrolled {
+    background-color: black;
+    opacity: 0.9;
+    border-bottom: 3px solid red;
+}
